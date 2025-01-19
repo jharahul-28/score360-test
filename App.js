@@ -43,8 +43,8 @@ const MainScreens = () => {
         <Stack.Screen name="Tournaments" component={Tournaments} />
         <Stack.Screen name="Teams" component={Teams} />
         <Stack.Screen name="Settings" component={Settings} />
-        <Stack.Screen name="CreateTeam" component={CreateTeam} /> 
-        <Stack.Screen name="CreateTournaments" component={CreateTournaments} /> 
+        <Stack.Screen name="CreateTeam" component={CreateTeam} />
+        <Stack.Screen name="CreateTournaments" component={CreateTournaments} />
       </Stack.Navigator>
       <Footer style={styles.footer} />
     </SafeAreaView>
